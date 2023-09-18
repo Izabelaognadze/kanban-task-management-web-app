@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-switch',
@@ -6,8 +7,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./switch.component.css']
 })
 export class SwitchComponent {
-  switchOn = false;
-  toggle () {
-    this.switchOn = !this.switchOn;
-  }
 }
