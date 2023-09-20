@@ -8,6 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ButtonComponent implements OnInit{
   @Input() public buttonText = "";
   @Input() public buttonBg = "";
+  @Input() public buttonTextSize = "";
   constructor(){}
   ngOnInit(): void {
     

@@ -1,0 +1,14 @@
+<div class="flex flex-row justify-between px-4 py-5">
+    <div class="flex flex-row gap-2">
+        <img class="block md:hidden pr-2" src="assets/logo-mobile.svg" alt="">
+        <h1 class="font-WebFont text-2xl not-italic font-bold leading-normal whitespace-nowrap">Platform Launch</h1>
+        <div class="block md:hidden my-auto" (click)="toggleOng = !toggleOng">
+            <img class="" src="assets/icon-chevron-down.svg" alt="" *ngIf="!toggleOng">
+            <img class="" src="assets/icon-chevron-up.svg" alt="" *ngIf="toggleOng">
+        </div>
+    </div>
+    <div class="flex flex-row gap-4">
+        <div class="w-12"><app-button buttonBg="#635FC7" buttonText="+" buttonTextSize="1"></app-button></div>
+        <img class="h-4 my-auto" src="../../../assets/icon-vertical-ellipsis.svg" alt="">
+    </div>
+</div>
