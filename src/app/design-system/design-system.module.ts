@@ -18,6 +18,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   exports:[
     ButtonComponent,
     SwitchComponent,
+    SidebarComponent,
   ]
 })
 export class DesignSystemModule { }
