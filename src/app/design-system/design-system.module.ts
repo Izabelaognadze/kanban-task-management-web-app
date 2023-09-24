@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ButtonComponent } from './button/button.component';
 import { SwitchComponent } from './switch/switch.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { TaskComponent } from './task/task.component';
 
 
 
@@ -10,7 +11,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   declarations: [
     ButtonComponent,
     SwitchComponent,
-    SidebarComponent
+    SidebarComponent,
+    TaskComponent
   ],
   imports: [
     CommonModule
